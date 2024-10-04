@@ -3,9 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Página Inicial</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: beige;
+      }
+      .menu {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
-    Teste....
+    <nav class="menu">
+      <img
+        width="100"
+        src="https://midias.agazeta.com.br/2020/05/01/ayrton-senna-conquistou-tres-titulos-mundiais-de-formula-1-e-se-tornou-um-dos-maiores-pilotos-da-historia-da-categoria-238593-article.jpg"
+        alt="LOGO SITE"
+      />
+
+      <ul>
+        <a href="/">HOME</a>
+        <a href="/sobre">SOBRE NÓS</a>
+      </ul>
+    </nav>
   </body>
 </html>
